@@ -1,0 +1,5 @@
+Icons generated from https://materialdesignicons.com/
+* newtab32 = size:32, padding:3, corner-radius:3
+* newtab64 = size:64, padding:2, corner-radius:2
+* newtab128 = size:128, padding:1, corner-radius:2
+* color = rgba(97, 97, 97)

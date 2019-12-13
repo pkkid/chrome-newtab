@@ -1,19 +1,17 @@
 {
   "manifest_version": 2,
-  "name": "Chrome Tools",
-  "short_name": "PKs Tab Tools",
-  "version": "3.0",
-  "description": "Tab tools to make using chrome better.",
-  "permissions": ["bookmarks", "management", "storage", "tabs", "topSites"],
+  "name": "Chrome NewTab",
+  "short_name": "Chrome NewTab",
+  "version": "2019.12.12",
+  "description": "Better NewTab page for Chrome",
+  "permissions": ["storage", "tabs"],
   "options_page": "options.html",
-  "background": {"page": "background.html"},
-  "chrome_url_overrides": {"newtab": "main.html"},
+  "chrome_url_overrides": {"newtab": "newtab.html"},
   "browser_action": {
-    "default_popup": "popup.html",
     "default_icon": {
-      "128": "img/tab128.png",
-      "64": "img/tab64.png",
-      "32": "img/tab32.png"
+      "128": "img/newtab128.png",
+      "64": "img/newtab64.png",
+      "32": "img/newtab32.png"
     }
   },
   "incognito": "split",

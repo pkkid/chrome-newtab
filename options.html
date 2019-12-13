@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en' ng-app='newTab'>
   <head>
-    <title>Chrome Tools Settings</title>
+    <title>Chrome NewTab Settings</title>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500'>
     <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.4.95/css/materialdesignicons.min.css'/>
     <link rel='stylesheet' type='text/css' href='static/tabtools.css' >
@@ -11,7 +11,7 @@
     <!-- Header -->
     <header>
       <div class='content'>
-        <span class='mdi mdi-settings'></span> Chrome Tools Settings
+        <span class='mdi mdi-settings'></span> Chrome NewTab Settings
       </div>
     </header>
     <!-- Main Settings -->
@@ -34,45 +34,6 @@
             <div class='help'>Display contents in an iframe. This allows the address bar to remain
               blank when opening a new tab. However, it only works if the specified URL is not
               setting X-Frame-Options in the HTTP response header.</div>
-          </div>
-        </div>
-        <!-- Bookmark Sort Options -->
-        <div style='margin-top:30px;'>Bookmark Sorting</div>
-        <div class='settings-container'>
-          <div class='settings-box'>
-            Sort Folders First
-            <label class='switch'><input id='folders_first' type='checkbox'><span class='slider'></span></label>
-            <span class='mdi mdi-folder-upload-outline'></span>
-          </div>
-          <div class='settings-box'>
-            Sort Delay
-            <input id='sort_delay' type='number'/>
-            <div class='seconds'>sec</div>
-            <span class='mdi mdi-camera-timer'></span>
-          </div>
-          <div class='settings-box'>
-            Bookmarks Bar
-            <div class='toplevel'>Top Level</div>
-            <select class='sort' id='bookmarks_sort'><option value='none'>--</option><option value='title'>By Title</option><option value='created'>By Created</option><option value='url'>By URL</option></select>
-            <div class='sublevel'>Sub Folders</div>
-            <select class='sortsub' id='bookmarks_sub'><option value='none'>--</option><option value='title'>By Title</option><option value='created'>By Created</option><option value='url'>By URL</option></select>
-            <span class='mdi mdi-bookmark-multiple-outline'></span>
-          </div>
-          <div class='settings-box'>
-            Mobile Bookmarks
-            <div class='toplevel'>Top Level</div>
-            <select class='sort' id='mobile_sort'><option value='none'>--</option><option value='title'>By Title</option><option value='created'>By Created</option><option value='url'>By URL</option></select>
-            <div class='sublevel'>Sub Folders</div>
-            <select class='sortsub' id='mobile_sub'><option value='none'>--</option><option value='title'>By Title</option><option value='created'>By Created</option><option value='url'>By URL</option></select>
-            <span class='mdi mdi-bookmark-multiple-outline'></span>
-          </div>
-          <div class='settings-box'>
-            Other Bookmarks
-            <div class='toplevel'>Top Level</div>
-            <select class='sort' id='other_sort'><option value='none'>--</option><option value='title'>By Title</option><option value='created'>By Created</option><option value='url'>By URL</option></select>
-            <div class='sublevel'>Sub Folders</div>
-            <select class='sortsub' id='other_sub'><option value='none'>--</option><option value='title'>By Title</option><option value='created'>By Created</option><option value='url'>By URL</option></select>
-            <span class='mdi mdi-bookmark-multiple-outline'></span>
           </div>
         </div>
         <!-- internal chrome pages -->
