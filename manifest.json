@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "NewTab for Chrome",
   "short_name": "NewTab for Chrome",
-  "version": "2019.12.12",
+  "version": "2020.01.10",
   "description": "NewTab page for Chrome",
   "permissions": ["storage", "tabs"],
   "options_page": "options.html",
