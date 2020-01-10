@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Chrome NewTab",
-  "short_name": "Chrome NewTab",
+  "name": "NewTab for Chrome",
+  "short_name": "NewTab for Chrome",
   "version": "2019.12.12",
-  "description": "Better NewTab page for Chrome",
+  "description": "NewTab page for Chrome",
   "permissions": ["storage", "tabs"],
   "options_page": "options.html",
   "chrome_url_overrides": {"newtab": "newtab.html"},
