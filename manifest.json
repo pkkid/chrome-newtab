@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "NewTab for Chrome",
-  "short_name": "NewTab for Chrome",
-  "version": "2020.01.10",
-  "description": "NewTab page for Chrome",
+  "name": "PKs New Tab Tools",
+  "short_name": "PKs New Tab Tools",
+  "version": "2021.03.22",
+  "description": "PKs New Tab Tools",
   "permissions": ["storage", "tabs"],
   "options_page": "options.html",
   "chrome_url_overrides": {"newtab": "newtab.html"},
