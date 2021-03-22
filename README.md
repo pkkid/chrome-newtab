@@ -1,4 +1,4 @@
-# NewTab for Chrome
+# PKs New Tab
 
 ## Options
 
@@ -11,7 +11,7 @@ This does not replace your homepage, only new tabs.
 
 ### Legal
 
-NewTab for Chrome is released under the [MIT license](http://bit.ly/mit-license).
+PKs New Tab is released under the [MIT license](http://bit.ly/mit-license).
 You *may not* redistribute this software without proper attribution.
 
 * jQuery code is [MIT Licensed](https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt). 
