@@ -4,7 +4,7 @@
   "short_name": "PKs New Tab",
   "version": "2021.03.23",
   "description": "PKs New Tab",
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage"],
   "options_page": "options.html",
   "chrome_url_overrides": {"newtab": "newtab.html"},
   "browser_action": {
